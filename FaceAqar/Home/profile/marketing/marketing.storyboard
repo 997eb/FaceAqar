@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6O-IW-50r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Marketing Profile View Controller-->
+        <scene sceneID="b5T-o5-0BR">
+            <objects>
+                <viewController id="f6O-IW-50r" customClass="marketingProfileViewController" customModule="FaceAqar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pGL-lm-g0c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="cGh-fK-50W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="231"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="CnH-gX-fC2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joined Since: 2020-02-20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQw-fp-TNh">
+                                <rect key="frame" x="0.0" y="171" width="414" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileImg" translatesAutoresizingMaskIntoConstraints="NO" id="ywT-oe-uLz">
+                                <rect key="frame" x="152" y="14" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="AUA-Pf-UfW"/>
+                                    <constraint firstAttribute="height" constant="110" id="nIU-RY-qyQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm Best Property Expert" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFJ-jx-YB8">
+                                <rect key="frame" x="0.0" y="189" width="414" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ebtisam Alkhuzai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKn-fn-qtr">
+                                <rect key="frame" x="0.0" y="144" width="414" height="27"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" red="0.061223529280000001" green="0.017759913580000002" blue="0.34120082860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ui2-tJ-EoN">
+                                <rect key="frame" x="46" y="230" width="322" height="32"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marketing-2" translatesAutoresizingMaskIntoConstraints="NO" id="aoW-us-jd7">
+                                        <rect key="frame" x="20" y="0.0" width="26" height="32"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Real estate ad marketing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-Iw-i3C">
+                                        <rect key="frame" x="56" y="0.0" width="246" height="32"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                        <color key="textColor" red="0.061223529280000001" green="0.017759913580000002" blue="0.34120082860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="aoW-us-jd7" firstAttribute="leading" secondItem="Ui2-tJ-EoN" secondAttribute="leading" constant="20" id="3KC-Cs-kP1"/>
+                                    <constraint firstItem="aoW-us-jd7" firstAttribute="top" secondItem="Ui2-tJ-EoN" secondAttribute="top" id="H72-PN-vHq"/>
+                                    <constraint firstItem="Xdn-Iw-i3C" firstAttribute="leading" secondItem="aoW-us-jd7" secondAttribute="trailing" constant="10" id="IPM-Sp-Jau"/>
+                                    <constraint firstItem="Xdn-Iw-i3C" firstAttribute="top" secondItem="Ui2-tJ-EoN" secondAttribute="top" id="J6r-Dh-IpH"/>
+                                    <constraint firstAttribute="width" constant="322" id="PEV-b5-3Nv"/>
+                                    <constraint firstAttribute="height" constant="32" id="ZX1-1S-FMx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xdn-Iw-i3C" secondAttribute="bottom" id="hW1-Sr-kr1"/>
+                                    <constraint firstAttribute="bottom" secondItem="aoW-us-jd7" secondAttribute="bottom" id="kDH-ec-GrJ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enables you to market your real estate ad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBR-se-k5H">
+                                <rect key="frame" x="20" y="312" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Yx-ON-XTx">
+                                <rect key="frame" x="20" y="347.5" width="374" height="201"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="hUA-ir-Ks6"/>
+                                </constraints>
+                                <string key="text">1. Your real estate page reaches the application user directly in his inbox.
+2. Increase the number of views.
+3. The number of marketing your real estate page according to your choice (in your city, in your region, or in all regions) and based on the number of registered user in the application for the city, one region, or all regions.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffP-cy-J6V">
+                                <rect key="frame" x="224" y="598.5" width="170" height="40"/>
+                                <color key="backgroundColor" red="0.096907176080000004" green="0.063480041919999994" blue="0.3686527014" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NO5-Ba-lrZ"/>
+                                    <constraint firstAttribute="width" constant="170" id="wK8-zL-BzH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Request the service">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="DQa-t0-Oqu" kind="show" id="jko-HF-0Gw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pbQ-gd-JbQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FQw-fp-TNh" firstAttribute="top" secondItem="JKn-fn-qtr" secondAttribute="bottom" id="2Qk-2e-mBC"/>
+                            <constraint firstItem="WFJ-jx-YB8" firstAttribute="top" secondItem="FQw-fp-TNh" secondAttribute="bottom" id="2hs-dL-8mi"/>
+                            <constraint firstItem="3Yx-ON-XTx" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" constant="20" id="3Dl-a5-zWz"/>
+                            <constraint firstItem="WFJ-jx-YB8" firstAttribute="top" secondItem="FQw-fp-TNh" secondAttribute="bottom" id="Eon-nC-3pG"/>
+                            <constraint firstItem="WFJ-jx-YB8" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" id="GFo-LC-ETK"/>
+                            <constraint firstItem="cGh-fK-50W" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" id="JC9-WB-B6d"/>
+                            <constraint firstItem="Ui2-tJ-EoN" firstAttribute="top" secondItem="WFJ-jx-YB8" secondAttribute="bottom" constant="20" id="Jmn-5J-Htw"/>
+                            <constraint firstItem="FQw-fp-TNh" firstAttribute="trailing" secondItem="pbQ-gd-JbQ" secondAttribute="trailing" id="JwM-qq-Yh0"/>
+                            <constraint firstItem="JKn-fn-qtr" firstAttribute="trailing" secondItem="pbQ-gd-JbQ" secondAttribute="trailing" id="N5E-6U-SGt"/>
+                            <constraint firstItem="cGh-fK-50W" firstAttribute="trailing" secondItem="pbQ-gd-JbQ" secondAttribute="trailing" id="NXn-CQ-m9d"/>
+                            <constraint firstItem="3Yx-ON-XTx" firstAttribute="top" secondItem="vBR-se-k5H" secondAttribute="bottom" constant="15" id="Nl4-I8-Cz6"/>
+                            <constraint firstItem="cGh-fK-50W" firstAttribute="top" secondItem="pGL-lm-g0c" secondAttribute="top" id="Q0R-i6-xHC"/>
+                            <constraint firstItem="ffP-cy-J6V" firstAttribute="top" secondItem="3Yx-ON-XTx" secondAttribute="bottom" constant="50" id="TWL-CD-o0D"/>
+                            <constraint firstItem="pbQ-gd-JbQ" firstAttribute="trailing" secondItem="vBR-se-k5H" secondAttribute="trailing" constant="20" id="bb2-87-AuE"/>
+                            <constraint firstItem="FQw-fp-TNh" firstAttribute="top" secondItem="JKn-fn-qtr" secondAttribute="bottom" id="btV-zH-yAq"/>
+                            <constraint firstItem="ywT-oe-uLz" firstAttribute="centerX" secondItem="pGL-lm-g0c" secondAttribute="centerX" id="ceA-w5-pzr"/>
+                            <constraint firstItem="pbQ-gd-JbQ" firstAttribute="trailing" secondItem="ffP-cy-J6V" secondAttribute="trailing" constant="20" id="cuX-DT-gjv"/>
+                            <constraint firstItem="JKn-fn-qtr" firstAttribute="top" secondItem="ywT-oe-uLz" secondAttribute="bottom" constant="20" id="eBS-hQ-ujx"/>
+                            <constraint firstItem="JKn-fn-qtr" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" id="gSI-xg-JMS"/>
+                            <constraint firstItem="Ui2-tJ-EoN" firstAttribute="centerX" secondItem="pGL-lm-g0c" secondAttribute="centerX" id="lH1-mn-OAG"/>
+                            <constraint firstItem="ywT-oe-uLz" firstAttribute="top" secondItem="pbQ-gd-JbQ" secondAttribute="top" constant="-30" id="nOt-P4-U24"/>
+                            <constraint firstItem="FQw-fp-TNh" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" id="oTV-hy-fcc"/>
+                            <constraint firstItem="vBR-se-k5H" firstAttribute="top" secondItem="Ui2-tJ-EoN" secondAttribute="bottom" constant="50" id="odv-XA-eVy"/>
+                            <constraint firstItem="WFJ-jx-YB8" firstAttribute="trailing" secondItem="pbQ-gd-JbQ" secondAttribute="trailing" id="s6X-r4-SbW"/>
+                            <constraint firstItem="vBR-se-k5H" firstAttribute="leading" secondItem="pbQ-gd-JbQ" secondAttribute="leading" constant="20" id="sOJ-4E-BVn"/>
+                            <constraint firstItem="pbQ-gd-JbQ" firstAttribute="trailing" secondItem="3Yx-ON-XTx" secondAttribute="trailing" constant="20" id="tfq-d9-Jjs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="profileImg" destination="ywT-oe-uLz" id="9Pp-6k-0Vt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykn-vd-WvB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.86956521739131" y="115.84821428571428"/>
+        </scene>
+        <!--selectAds-->
+        <scene sceneID="H3v-aO-rIh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="selectAds" id="DQa-t0-Oqu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LtI-BY-EPU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MUa-D0-NMc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="402" height="231"/>
+        <image name="marketing-2" width="26" height="26"/>
+        <image name="profileImg" width="86" height="86"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

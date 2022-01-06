@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EPu-Au-HDJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About FaceAqar-->
+        <scene sceneID="r8O-OW-oyq">
+            <objects>
+                <viewController storyboardIdentifier="whoAreWe" title="About FaceAqar" id="EPu-Au-HDJ" customClass="whoAreWeViewController" customModule="FaceAqar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C4L-P6-WaO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Okr-gA-tuy">
+                                <rect key="frame" x="20" y="218" width="374" height="678"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">The standard Lorem Ipsum , used since the 1500s
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.The standard Lorem Ipsum , used since the 1500s
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.The standard Lorem Ipsum , used since the 1500s
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.The standard Lorem Ipsum , used since the 1500s
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faceAqarLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="NRn-ft-b3V">
+                                <rect key="frame" x="198" y="44" width="189" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="144" id="Con-df-AAJ"/>
+                                    <constraint firstAttribute="width" constant="189" id="idJ-fP-08y"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="خدمات تسويقية | خدمات عقارية | خدمات حكومية" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NN-JT-WfV">
+                                <rect key="frame" x="28" y="94" width="201" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="واجهة العقار الإلكتروني" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGN-wz-0pC">
+                                <rect key="frame" x="28" y="111" width="193.5" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.1529411765" green="0.1843137255" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F A C E A Q A R . C O M . S A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjT-Og-ZQH">
+                                <rect key="frame" x="28" y="143.5" width="151" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K5v-QC-Fsw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1NN-JT-WfV" firstAttribute="leading" secondItem="fjT-Og-ZQH" secondAttribute="leading" id="0Gs-Hn-Mky"/>
+                            <constraint firstItem="1NN-JT-WfV" firstAttribute="top" secondItem="K5v-QC-Fsw" secondAttribute="top" constant="50" id="0Ll-R5-oPT"/>
+                            <constraint firstItem="Okr-gA-tuy" firstAttribute="leading" secondItem="K5v-QC-Fsw" secondAttribute="leading" constant="20" id="EJ3-jM-JI4"/>
+                            <constraint firstItem="K5v-QC-Fsw" firstAttribute="trailing" secondItem="Okr-gA-tuy" secondAttribute="trailing" constant="20" id="GbF-jT-nrq"/>
+                            <constraint firstItem="NRn-ft-b3V" firstAttribute="leading" secondItem="fjT-Og-ZQH" secondAttribute="trailing" constant="19" id="PcJ-37-rvi"/>
+                            <constraint firstItem="GGN-wz-0pC" firstAttribute="top" secondItem="1NN-JT-WfV" secondAttribute="bottom" constant="5" id="R7N-ZU-Ots"/>
+                            <constraint firstItem="fjT-Og-ZQH" firstAttribute="top" secondItem="GGN-wz-0pC" secondAttribute="bottom" constant="5" id="RW9-pG-5wX"/>
+                            <constraint firstAttribute="bottom" secondItem="Okr-gA-tuy" secondAttribute="bottom" id="U3q-2S-EyW"/>
+                            <constraint firstItem="NRn-ft-b3V" firstAttribute="top" secondItem="K5v-QC-Fsw" secondAttribute="top" id="Vpb-4r-l0Q"/>
+                            <constraint firstItem="K5v-QC-Fsw" firstAttribute="trailing" secondItem="NRn-ft-b3V" secondAttribute="trailing" constant="27" id="gZF-hn-RCH"/>
+                            <constraint firstItem="1NN-JT-WfV" firstAttribute="leading" secondItem="GGN-wz-0pC" secondAttribute="leading" id="hgM-4i-Qxk"/>
+                            <constraint firstItem="Okr-gA-tuy" firstAttribute="top" secondItem="NRn-ft-b3V" secondAttribute="bottom" constant="30" id="wcS-ga-qft"/>
+                            <constraint firstItem="fjT-Og-ZQH" firstAttribute="top" secondItem="GGN-wz-0pC" secondAttribute="bottom" constant="5" id="yHU-h4-FqA"/>
+                            <constraint firstItem="GGN-wz-0pC" firstAttribute="top" secondItem="1NN-JT-WfV" secondAttribute="bottom" constant="5" id="zMR-XR-ZeK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uNA-QA-CFa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.71014492753625" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="faceAqarLogo2" width="168" height="119"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

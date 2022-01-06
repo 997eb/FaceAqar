@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  FaceAqar
+//
+//  Created by Ebtsam alkhuzai on 07/06/1442 AH.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+

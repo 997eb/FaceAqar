@@ -1,0 +1,37 @@
+PODS:
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
+  - M13Checkbox (3.4.0)
+  - SnapKit (5.0.1)
+  - SwiftyMenu (0.6.4):
+    - SnapKit (~> 5.0.1)
+
+DEPENDENCIES:
+  - GoogleMaps (= 4.1.0)
+  - GooglePlaces (= 4.1.0)
+  - M13Checkbox
+  - SwiftyMenu (~> 0.6.4)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+    - M13Checkbox
+    - SnapKit
+    - SwiftyMenu
+
+SPEC CHECKSUMS:
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyMenu: 78a70edddb323f6b671ace1bd47853629cf040a9
+
+PODFILE CHECKSUM: 436015cdb921bec99f362a4839f1016f49c36655
+
+COCOAPODS: 1.10.0

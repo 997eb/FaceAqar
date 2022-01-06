@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rqj-0Q-7f9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Our Business-->
+        <scene sceneID="6vt-hc-zjA">
+            <objects>
+                <viewController storyboardIdentifier="ourBussines" title="Our Business" id="rqj-0Q-7f9" customClass="ourBussinessViewController" customModule="FaceAqar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZwP-EO-fF2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="W3c-Oi-XPt">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="vZS-Wv-2mr">
+                                    <size key="itemSize" width="180" height="236"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="80f-WI-bht" customClass="ourBussinesCell" customModule="FaceAqar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="236"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bcE-l0-0Go">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="236"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3s-G9-K2l">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="236"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bus" translatesAutoresizingMaskIntoConstraints="NO" id="ygx-F6-6yA">
+                                                            <rect key="frame" x="1" y="10" width="178" height="157"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="157" id="JoO-yZ-Ifh"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elite Apartments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKZ-hk-ppZ">
+                                                            <rect key="frame" x="0.0" y="172" width="180" height="26"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="26" id="wd8-wz-aiz"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.abc.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9A-tR-mq6">
+                                                            <rect key="frame" x="0.0" y="198" width="180" height="23"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="j9A-tR-mq6" firstAttribute="leading" secondItem="Z3s-G9-K2l" secondAttribute="leading" id="50M-Wt-Jlb"/>
+                                                        <constraint firstAttribute="trailing" secondItem="j9A-tR-mq6" secondAttribute="trailing" id="6Vl-hV-XLC"/>
+                                                        <constraint firstItem="kKZ-hk-ppZ" firstAttribute="leading" secondItem="Z3s-G9-K2l" secondAttribute="leading" id="BsO-1l-tcT"/>
+                                                        <constraint firstAttribute="bottom" secondItem="j9A-tR-mq6" secondAttribute="bottom" constant="15" id="LGL-ZL-8Mj"/>
+                                                        <constraint firstItem="j9A-tR-mq6" firstAttribute="top" secondItem="kKZ-hk-ppZ" secondAttribute="bottom" id="LHx-H7-ODZ"/>
+                                                        <constraint firstItem="ygx-F6-6yA" firstAttribute="top" secondItem="Z3s-G9-K2l" secondAttribute="top" constant="10" id="Xcy-k6-iIx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="kKZ-hk-ppZ" secondAttribute="trailing" id="hwB-L2-P0K"/>
+                                                        <constraint firstItem="kKZ-hk-ppZ" firstAttribute="top" secondItem="ygx-F6-6yA" secondAttribute="bottom" constant="5" id="oxi-wP-uLd"/>
+                                                        <constraint firstItem="ygx-F6-6yA" firstAttribute="leading" secondItem="Z3s-G9-K2l" secondAttribute="leading" constant="1" id="sLX-s1-Hwh"/>
+                                                        <constraint firstItem="ygx-F6-6yA" firstAttribute="centerX" secondItem="kKZ-hk-ppZ" secondAttribute="centerX" id="uIT-k9-1hp"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Z3s-G9-K2l" firstAttribute="top" secondItem="bcE-l0-0Go" secondAttribute="top" id="H3O-5x-m2G"/>
+                                                <constraint firstAttribute="bottom" secondItem="Z3s-G9-K2l" secondAttribute="bottom" id="JHa-eZ-CzZ"/>
+                                                <constraint firstItem="Z3s-G9-K2l" firstAttribute="leading" secondItem="bcE-l0-0Go" secondAttribute="leading" id="gpI-un-Gca"/>
+                                                <constraint firstAttribute="trailing" secondItem="Z3s-G9-K2l" secondAttribute="trailing" id="ik3-Hl-xiQ"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="180" height="236"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="rqj-0Q-7f9" id="ct7-lB-yVl"/>
+                                    <outlet property="delegate" destination="rqj-0Q-7f9" id="tvM-oy-Frf"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lH5-mU-8gY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lH5-mU-8gY" firstAttribute="trailing" secondItem="W3c-Oi-XPt" secondAttribute="trailing" constant="20" id="QpK-2w-Auf"/>
+                            <constraint firstItem="W3c-Oi-XPt" firstAttribute="leading" secondItem="lH5-mU-8gY" secondAttribute="leading" constant="20" id="SbX-P4-FEr"/>
+                            <constraint firstItem="W3c-Oi-XPt" firstAttribute="top" secondItem="lH5-mU-8gY" secondAttribute="top" id="VJY-dw-dwg"/>
+                            <constraint firstItem="lH5-mU-8gY" firstAttribute="bottom" secondItem="W3c-Oi-XPt" secondAttribute="bottom" id="mon-mE-iBH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8xB-tS-zqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bus" width="141" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

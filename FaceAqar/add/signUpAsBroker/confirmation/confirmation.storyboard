@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dr4-1m-FLH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Confirmation View Controller-->
+        <scene sceneID="vmg-Fp-14D">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="Dr4-1m-FLH" customClass="confirmationViewController" customModule="FaceAqar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s9A-Eg-0Oh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKY-Vn-3Tq">
+                                <rect key="frame" x="20" y="444" width="374" height="64.5"/>
+                                <string key="text">You have successfully
+Posted an Ad No. 1806363</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsh-9h-KKu">
+                                <rect key="frame" x="30" y="548.5" width="354" height="74"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pY-uP-yvp">
+                                        <rect key="frame" x="15" y="18" width="145" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="145" id="3ER-0J-FmC"/>
+                                            <constraint firstAttribute="height" constant="35" id="dx9-aA-3Pn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Contact Us">
+                                            <color key="titleColor" red="0.039195355029999997" green="0.034557919950000002" blue="0.32159158589999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="contactUs:" destination="Dr4-1m-FLH" eventType="touchUpInside" id="qRu-12-FQy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keS-Zk-Zbp">
+                                        <rect key="frame" x="194" y="18" width="145" height="35"/>
+                                        <color key="backgroundColor" red="0.039195355029999997" green="0.034557919950000002" blue="0.32159158589999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="6e0-HX-lw7"/>
+                                            <constraint firstAttribute="width" constant="145" id="YmX-MC-xtS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Home">
+                                            <color key="titleColor" red="0.92159587139999999" green="0.92154115439999995" blue="0.92157012220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="keS-Zk-Zbp" secondAttribute="trailing" constant="15" id="218-no-Hrq"/>
+                                    <constraint firstAttribute="height" constant="74" id="5X0-rA-W0a"/>
+                                    <constraint firstItem="9pY-uP-yvp" firstAttribute="leading" secondItem="bsh-9h-KKu" secondAttribute="leading" constant="15" id="E6F-zC-LOO"/>
+                                    <constraint firstItem="9pY-uP-yvp" firstAttribute="top" secondItem="bsh-9h-KKu" secondAttribute="top" constant="18" id="Nfx-zH-zlA"/>
+                                    <constraint firstAttribute="width" constant="354" id="Ovh-7u-kqv"/>
+                                    <constraint firstItem="keS-Zk-Zbp" firstAttribute="top" secondItem="bsh-9h-KKu" secondAttribute="top" constant="18" id="liA-54-kO7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ky-Iq-IUV" customClass="M13Checkbox" customModule="M13Checkbox">
+                                <rect key="frame" x="113" y="194" width="188" height="190"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.35175692632611955" green="0.68206694162436543" blue="0.36144315788831077" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="YbV-6e-ocM"/>
+                                    <constraint firstAttribute="width" constant="188" id="hcx-gT-ODz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                        <color key="value" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Xy-U5-BCy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QKY-Vn-3Tq" firstAttribute="top" secondItem="3Ky-Iq-IUV" secondAttribute="bottom" constant="60" id="1Ko-k6-NPa"/>
+                            <constraint firstItem="8Xy-U5-BCy" firstAttribute="trailing" secondItem="QKY-Vn-3Tq" secondAttribute="trailing" constant="20" id="3vV-ut-70x"/>
+                            <constraint firstItem="QKY-Vn-3Tq" firstAttribute="leading" secondItem="8Xy-U5-BCy" secondAttribute="leading" constant="20" id="PnF-zH-gQO"/>
+                            <constraint firstItem="3Ky-Iq-IUV" firstAttribute="top" secondItem="8Xy-U5-BCy" secondAttribute="top" constant="150" id="WXo-qu-3nk"/>
+                            <constraint firstItem="bsh-9h-KKu" firstAttribute="top" secondItem="QKY-Vn-3Tq" secondAttribute="bottom" constant="40" id="gHH-Rq-N3Z"/>
+                            <constraint firstItem="3Ky-Iq-IUV" firstAttribute="centerX" secondItem="s9A-Eg-0Oh" secondAttribute="centerX" id="mkc-y2-nC9"/>
+                            <constraint firstItem="bsh-9h-KKu" firstAttribute="centerX" secondItem="s9A-Eg-0Oh" secondAttribute="centerX" id="wkN-sY-qqn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkbox" destination="3Ky-Iq-IUV" id="QZn-ft-pDv"/>
+                        <outlet property="confirmationLbl" destination="QKY-Vn-3Tq" id="kgk-uu-64s"/>
+                        <outlet property="contactUs" destination="9pY-uP-yvp" id="y06-gT-rlJ"/>
+                        <outlet property="home" destination="keS-Zk-Zbp" id="Xi1-bW-Jb1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cIJ-Wi-Ga8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2463768115942031" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
